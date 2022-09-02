@@ -1,37 +1,209 @@
-body{
-    font-family: 'Playfair Display';
-  font-weight: 400;
+h1,h2,h3,h4,h5{
+margin: 0px;
 }
+h3{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+width: 270px;
+height: 16px;
+}
+h2{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+}
+.nav-link{
+    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #212121;
+
+}
+
 ul{
-list-style: none;
+    margin: 0px;
+    padding: 0;
+    list-style: none;
 }
+
+p{
+    margin: 0px;
+}
+
 a{
-text-decoration: none;
+    text-decoration: none;
 }
-.card-name{
-    font-family: 'Ubuntu';
-    font-weight: 300;
+
+
+.container{
+    outline: 2px solid black;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-section{
+    
+    background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+
+
+}
+.hero-title{
+    
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+    
+}
+
+.hero-button{
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+width: 200px;
+height: 50px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+
+}
+
+.section-benefits{
+    
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
 font-size: 14px;
-line-height: 1,14;
-color: #B4AD9E;
+line-height: 24px;
+
+
+letter-spacing: 0.03em;
+
+color: #757575;
+    
 }
-.link{
+
+.team-section{
+    outline: 2px solid red;
+    background: #F5F4FA;
+}
+
+.work-section{
+    outline: 2px solid red;
+}
+footer{
+    outline: 2px solid red;
+    background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+
+}
+.logo-color{
+    
+color: #2196F3;
+
+}
+.nav-logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    color: 
+    #000000;
+    letter-spacing: 0.03em;
+}
+.footer-logo{
+    
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+footer{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
 font-size: 14px;
-Line-height: 19px;
-color:
-#7D7D7D
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+
 }
-.link:hover{
-color:
-#03A9F4;
-}
-.card-title{
-    Font-size: 30px;
-    Line-height: 40px;
- color: #626262
-}
-.card-deskription{
-    Font-size: 14px;
-    Line-height: 19px;
-color: #626262;
+.contact-footer{
+    
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: rgba(255, 255, 255, 0.6);
+    
 }
