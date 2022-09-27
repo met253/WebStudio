@@ -117,14 +117,30 @@ header .container{
 }
 
 /* hero section */
-
 .hero-section {
-    background-color: #2F303A;
-    padding-top: 200px;
-    padding-bottom: 200px;
-    text-align: center;
-    
+  outline: 2px solid red;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("./image/Imga.png");
 }
+
+
+
+
 
 .hero-title {
     font-weight: 900;
@@ -273,7 +289,14 @@ header .container{
     padding-bottom: 95px;
    
   }
-  
+  .svg-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
   .team-title {
     font-weight: 700;
     font-size: 36px;
