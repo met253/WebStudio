@@ -686,6 +686,9 @@ top: 1462px;
 
 
 
+
+
+
 .team-about {
     font-family: 'Roboto';
     font-style: normal;
@@ -703,9 +706,7 @@ top: 1462px;
  } 
 
 .social-list {
-  justify-content: center;
   display: flex;
-  margin-right: 44px;
 }
 
 .social-item {
@@ -836,6 +837,11 @@ footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
+footer .container{
+  display: flex;
+}
+
 .footer-logo {
   font-weight: 700;
   font-size: 26px;
@@ -879,3 +885,20 @@ letter-spacing: 0.03em;
   color: #FFFFFF;
   margin-top: 20px;
  } 
+ .footer-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #fff;
+  margin-top: 20px;
+  padding-left: 17.32px;
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function:cubic-bezier(.01,-0.01,.55,1) ;
+  transition-delay: 50ms;
+}
